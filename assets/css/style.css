@@ -481,7 +481,7 @@ body.dark-screen .normalCursor, .cursor-dark {
     display: flex;
     align-items: flex-end;
     height: 100%;
-    padding: 120px 0px clamp(40px, 6.042vw, 120px) 0px;
+    padding: 120px 0px clamp(40px, 3.042vw, 120px) 0px;
     position: relative;
     z-index: 2;
 }
@@ -494,20 +494,20 @@ body.dark-screen .normalCursor, .cursor-dark {
 .info-item h2 {
     font-size: clamp(22px, 1vw + 10px, 45px);
     color: var(--third-color);
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 .info-item p {
     color: var(--third-color);
     opacity: 0.5;
     font-size: clamp(18px, 1vw, 35px);
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .info-item a {
     font-size: clamp(18px, 1vw, 35px);
     color: var(--third-color);
 }
 .info-item:not(:last-child) {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 .mega-menu-link {
     color: #969696;
