@@ -40,7 +40,39 @@ chat='true'>
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
-
+<div class="banner">
+	<style>
+		html,body {
+			margin:0;
+		}
+		.banner {
+			background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+		}
+		.banner_content {
+			padding: 16px;
+			max-width: 500px;
+			margin: 0 auto;
+			display: flex;
+			align-items: center;
+		}
+		.banner_text {
+			flex-grow: 1;
+			line-height: 1.4;
+			font-family: 'Quicksand', sans-serif;
+		}
+	</style>
+	<div class="banner_content">
+		<div class="banner_text">
+			<strong>Our upcoming Clever24 Conference will commence on the 4th of February, 2025. Grab your tickets now for 25% off when purchasing two tickets!</strong>
+		</div>
+		<button class="banner_close">
+			<span class="material-icons">
+				close
+			</span>
+		</button>
+	</div>
+</div>
     <!-- Page Wrapper Start -->
     <div class="page-wrapper">
         <!-- Page Header Start -->
